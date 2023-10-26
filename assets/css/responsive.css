@@ -1,0 +1,98 @@
+/* Tablet AND Mobile */
+@media (max-width: 1023px) {
+    .btn{
+        padding: 16px 20px;
+    }
+
+    #nav .subnav a {
+        padding: 5px 16px;
+    }
+    
+    .form-control{
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .socials-list a {
+        font-size: 44px;
+        margin: 0 6px;
+    }
+
+    #footer .coppyright {
+        font-size: 20px;
+    }
+
+    #footer .coppyright a {
+        padding: 20px 0;
+        display: inline-block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .s-mt8{
+        margin-top: 8px;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header #mobile-menu-icon{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav { 
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color:  #fff; 
+        padding: 5px 40px;
+    }
+
+    #content .nember-img {
+        width: 60%;
+    }
+
+    .contact-info {
+        margin-bottom: 16px;
+    }
+
+    .modal-input {
+        padding: 16px 10px;
+    }
+
+    .modal-close a {
+        font-size: 24px;
+    }
+
+    .modal-footer a {
+        padding: 12px 0px;
+    }
+}
